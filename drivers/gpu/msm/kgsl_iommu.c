@@ -2591,8 +2591,7 @@ static bool kgsl_iommu_addr_in_range(struct kgsl_pagetable *pagetable,
 	if (gpuaddr >= pt->va_start && (gpuaddr + size) < pt->va_end)
 		return true;
 
-	if (gpuaddr >= pt->compat_va_start &&
-			(gpuaddr + size) < pt->compat_va_end)
+	if (gpuaddr >= pt->compat_va_start && (gpuaddr + size) < pt->compat_va_end)
 		return true;
 
 	if (gpuaddr >= pt->svm_start && (gpuaddr + size) < pt->svm_end)
