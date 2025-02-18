@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.19.325 Kernel Configuration
+# Linux/arm64 4.19.329 Kernel Configuration
 #
 
 #
@@ -9,7 +9,7 @@
 CONFIG_KSU=n
 CONFIG_INIT_ENV_ARG_LIMIT=32
 # CONFIG_COMPILE_TEST is not set
-CONFIG_LOCALVERSION="-Kiwkiw™U1"
+CONFIG_LOCALVERSION="-Kiwkiw™U1.2"
 CONFIG_LOCALVERSION_AUTO=n
 CONFIG_LOCALVERSION_BRANCH_SHA=y
 CONFIG_BUILD_SALT=""
