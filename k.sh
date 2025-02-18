@@ -16,7 +16,7 @@ done
 [[ -z ${ZIP} ]] && { echo "${bold}LOADING-_-....${normal}"; }
 
 DEFCONFIG="/asus/X01BD_defconfig"
-export KBUILD_BUILD_USER=t.me/@IkhsanMah
+export KBUILD_BUILD_USER=😎t.me/@IM1994😎
 export KBUILD_BUILD_HOST=Linux-kernel_https://sourceforge.net/projects/kernel-im964-x01bd/
 TC_DIR="/workspace/IM/clang"
 export PATH="$TC_DIR/bin:$PATH"
