@@ -19,8 +19,8 @@
 #include <linux/string.h>
 
 #define IOWAIT_BOOST_MIN	(SCHED_CAPACITY_SCALE / 8)
-#define UP_RATE_LIMIT_US			(1000)
-#define DOWN_RATE_LIMIT_US			(1000)
+#define UP_RATE_LIMIT_US			(2000)
+#define DOWN_RATE_LIMIT_US			(2000)
 
 struct sugov_tunables {
 	struct gov_attr_set	attr_set;
